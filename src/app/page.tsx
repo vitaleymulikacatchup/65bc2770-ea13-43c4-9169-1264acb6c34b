@@ -7,7 +7,7 @@ import SplitAbout from '@/components/sections/about/SplitAbout';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, Speedometer } from "lucide-react";
+import { Award } from "lucide-react";
 
 const assetMap = [
   {"id":"hero-image","url":"https://images.pexels.com/photos/34327213/pexels-photo-34327213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Lime Green Aston Martin"},
@@ -48,8 +48,7 @@ export default function HomePage() {
             title="About Us"
             description="Learn more about our passion for excellence and innovation."
             bulletPoints={[
-              { title: "Heritage", description: "Decades of automotive excellence", icon: Award },
-              { title: "Performance", description: "Unmatched speed and precision", icon: Speedometer }
+              { title: "Heritage", description: "Decades of automotive excellence", icon: Award }
             ]}
             imageSrc={assetMap.find(a => a.id === "about-image")?.url ?? "/public/images/placeholder.webp"}
           />
