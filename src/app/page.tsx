@@ -7,7 +7,7 @@ import SplitAbout from '@/components/sections/about/SplitAbout';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award } from "lucide-react";
+import { Award, Speedometer } from "lucide-react";
 
 const assetMap = [
   {"id":"hero-image","url":"https://images.pexels.com/photos/34327213/pexels-photo-34327213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Lime Green Aston Martin"},
@@ -48,7 +48,8 @@ export default function HomePage() {
             title="About Us"
             description="Learn more about our passion for excellence and innovation."
             bulletPoints={[
-              { title: "Heritage", description: "Decades of automotive excellence", icon: Award }
+              { title: "Heritage", description: "Decades of automotive excellence", icon: Award },
+              { title: "Performance", description: "Unmatched speed and precision", icon: Speedometer }
             ]}
             imageSrc={assetMap.find(a => a.id === "about-image")?.url ?? "/public/images/placeholder.webp"}
           />
@@ -60,9 +61,9 @@ export default function HomePage() {
             title="Our Models"
             description="Discover our latest models and innovations."
             products={[
-              { id: "1", name: "Ferrari F8 Tributo", price: "$280,000", imageSrc: assetMap.find(a => a.id === "product-1")?.url ?? "/public/images/placeholder.webp", alt: assetMap.find(a => a.id === "product-1")?.alt ?? "Ferrari car 1" },
-              { id: "2", name: "Ferrari 812 Superfast", price: "$335,000", imageSrc: assetMap.find(a => a.id === "product-1")?.url ?? "/public/images/placeholder.webp", alt: assetMap.find(a => a.id === "product-1")?.alt ?? "Ferrari car 1" },
-              { id: "3", name: "Ferrari Portofino", price: "$215,000", imageSrc: assetMap.find(a => a.id === "product-1")?.url ?? "/public/images/placeholder.webp", alt: assetMap.find(a => a.id === "product-1")?.alt ?? "Ferrari car 1" }
+              { id: "1", name: "Ferrari F8 Tributo", price: "$280,000", imageSrc: assetMap.find(a => a.id === "product-1")?.url ?? "/public/images/placeholder.webp", imageAlt: "Ferrari F8 Tributo" },
+              { id: "2", name: "Ferrari 812 Superfast", price: "$335,000", imageSrc: assetMap.find(a => a.id === "product-1")?.url ?? "/public/images/placeholder.webp", imageAlt: "Ferrari 812 Superfast" },
+              { id: "3", name: "Ferrari Portofino", price: "$215,000", imageSrc: assetMap.find(a => a.id === "product-1")?.url ?? "/public/images/placeholder.webp", imageAlt: "Ferrari Portofino" }
             ]}
           />
         </div>
