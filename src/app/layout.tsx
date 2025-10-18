@@ -12,7 +12,7 @@ import {
   Nunito
 } from "next/font/google";
 import "./globals.css";
-import {PostHogWrapper} from "@/components/PostHogWrapper";
+import { PostHogWrapper } from "@/components/PostHogWrapper";
 import AuroraBackground from "@/components/background/AuroraBackground";
 
 const interTight = Inter_Tight({
@@ -85,7 +85,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://images.pexels.com/photos/34327213/pexels-photo-34327213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-        alt: "                               Lime Green Aston Martin"
+        alt: "Lime Green Aston Martin"
       }
     ],
     type: "website"
