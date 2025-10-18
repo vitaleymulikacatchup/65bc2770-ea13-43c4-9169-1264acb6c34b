@@ -1,4 +1,4 @@
-use client";
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -13,15 +13,7 @@ const assetMap = [
   {"id":"hero-image","url":"https://images.pexels.com/photos/34327213/pexels-photo-34327213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"                               Lime Green Aston Martin"},
   {"id":"about-image","url":"https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Top view of a diverse team collaborating in an office setting with laptops and tablets, promoting cooperation."},
   {"id":"product-1","url":"https://images.pexels.com/photos/29406740/pexels-photo-29406740.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"High-speed Formula 1 car racing on wet track showcasing power and precision."},
-  {"id":"testimonial-1","url":"https://images.pexels.com/photos/7731373/pexels-photo-7731373.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Close-up of hands typing on a laptop and reviewing business documents, focused on finance and legal tasks."},
-  {"id":"contact-image","url":"https://images.pexels.com/photos/8867231/pexels-photo-8867231.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Smiling woman in call center with headset and microphone at office desk."},
-  {"id":"microsoft-logo","url":"https://images.pexels.com/photos/10142683/pexels-photo-10142683.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Interior view of Microsoft office with logo on wooden wall in Brussels, Belgium."},
-  {"id":"google-logo","url":"https://images.pexels.com/photos/9949424/pexels-photo-9949424.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"A vibrant retro Apple logo with rainbow colors on a sleek black background."},
-  {"id":"apple-logo","url":"https://images.pexels.com/photos/3370333/pexels-photo-3370333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Sleek black and white minimalist desktop setup featuring modern technology in an indoor setting."},
-  {"id":"amazon-logo","url":"https://images.pexels.com/photos/9949424/pexels-photo-9949424.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"A vibrant retro Apple logo with rainbow colors on a sleek black background."},
-  {"id":"facebook-logo","url":"https://images.pexels.com/photos/267399/pexels-photo-267399.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Close-up view of the Facebook app logo on a digital screen with blurred background."},
-  {"id":"twitter-logo","url":"https://images.pexels.com/photos/16211204/pexels-photo-16211204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Hand holding smartphone with Twitter app open against blurred natural background."},
-  {"id":"tesla-logo","url":"https://images.pexels.com/photos/2449452/pexels-photo-2449452.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Tesla factory with parked cars during sunset, showcasing modern automotive industry vibes."}
+  {"id":"contact-image","url":"https://images.pexels.com/photos/8867231/pexels-photo-8867231.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"Smiling woman in call center with headset and microphone at office desk."}
 ];
 
 export default function HomePage() {
